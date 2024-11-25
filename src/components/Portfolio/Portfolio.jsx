@@ -2,6 +2,10 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import { useState } from 'react';
+import port1 from "../../assets/port1.png";
+import port2 from "../../assets/port2.png";
+import port3 from "../../assets/port3.png";
+
 
 export default function Portfolio() {
   const [isModalOpen, setIsModalOpen] = useState(false); 
@@ -30,9 +34,9 @@ export default function Portfolio() {
   
           <div
             className="w-full group relative sm:w-[48%] md:w-[30%] lg:w-[30%] rounded-2xl overflow-hidden shadow-md cursor-pointer"
-            onClick={() => openModel('../src/assets/port1.png')} 
+            onClick={() => openModel(port1)} 
           >
-            <img src="../src/assets/port1.png" alt="Portfolio Item 1" className="w-full h-auto" />
+            <img src={port1} alt="Portfolio Item 1" className="w-full h-auto" />
             <div className="w-full h-full absolute top-0 left-0 flex justify-center items-center bg-teal-600 bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
               <i className="fa-solid fa-plus fa-6x text-white"></i>
             </div>
@@ -40,9 +44,9 @@ export default function Portfolio() {
 
           <div
             className="w-full group relative sm:w-[48%] md:w-[30%] lg:w-[30%] rounded-2xl overflow-hidden shadow-md cursor-pointer"
-            onClick={() => openModel('../src/assets/port2.png')} 
+            onClick={() => openModel(port2)} 
           >
-            <img src="../src/assets/port2.png" alt="Portfolio Item 2" className="w-full h-auto" />
+            <img src={port2} alt="Portfolio Item 2" className="w-full h-auto" />
             <div className="w-full h-full absolute top-0 left-0 flex justify-center items-center bg-teal-600 bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
               <i className="fa-solid fa-plus fa-6x text-white"></i>
             </div>
@@ -50,9 +54,9 @@ export default function Portfolio() {
 
          <div
             className="w-full group relative sm:w-[48%] md:w-[30%] lg:w-[30%] rounded-2xl overflow-hidden shadow-md cursor-pointer"
-            onClick={() => openModel('../src/assets/port3.png')} 
+            onClick={() => openModel(port3)} 
           >
-            <img src="../src/assets/port3.png" alt="Portfolio Item 1" className="w-full h-auto" />
+            <img src={port3} alt="Portfolio Item 3" className="w-full h-auto" />
             <div className="w-full h-full absolute top-0 left-0 flex justify-center items-center bg-teal-600 bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
               <i className="fa-solid fa-plus fa-6x text-white"></i>
             </div>
@@ -60,9 +64,9 @@ export default function Portfolio() {
 
           <div
             className="w-full group relative sm:w-[48%] md:w-[30%] lg:w-[30%] rounded-2xl overflow-hidden shadow-md cursor-pointer"
-            onClick={() => openModel('../src/assets/port1.png')}
+            onClick={() => openModel(port1)}
           >
-            <img src="../src/assets/port1.png" alt="Portfolio Item 2" className="w-full h-auto" />
+            <img src={port1} alt="Portfolio Item 1" className="w-full h-auto" />
             <div className="w-full h-full absolute top-0 left-0 flex justify-center items-center bg-teal-600 bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
               <i className="fa-solid fa-plus fa-6x text-white"></i>
             </div>
@@ -70,9 +74,9 @@ export default function Portfolio() {
          
          <div
             className="w-full group relative sm:w-[48%] md:w-[30%] lg:w-[30%] rounded-2xl overflow-hidden shadow-md cursor-pointer"
-            onClick={() => openModel('../src/assets/port2.png')} 
+            onClick={() => openModel(port2)} 
           >
-            <img src="../src/assets/port2.png" alt="Portfolio Item 1" className="w-full h-auto" />
+            <img src={port2} alt="Portfolio Item 2" className="w-full h-auto" />
             <div className="w-full h-full absolute top-0 left-0 flex justify-center items-center bg-teal-600 bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
               <i className="fa-solid fa-plus fa-6x text-white"></i>
             </div>
@@ -80,9 +84,9 @@ export default function Portfolio() {
 
           <div
             className="w-full group relative sm:w-[48%] md:w-[30%] lg:w-[30%] rounded-2xl overflow-hidden shadow-md cursor-pointer"
-            onClick={() => openModel('../src/assets/port3.png')} 
+            onClick={() => openModel(port3)} 
           >
-            <img src="../src/assets/port3.png" alt="Portfolio Item 2" className="w-full h-auto" />
+            <img src={port3} alt="Portfolio Item 3" className="w-full h-auto" />
             <div className="w-full h-full absolute top-0 left-0 flex justify-center items-center bg-teal-600 bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
               <i className="fa-solid fa-plus fa-6x text-white"></i>
             </div>
