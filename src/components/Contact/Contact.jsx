@@ -69,7 +69,7 @@ export default function Contact() {
                 userPassword :
               </label>
               <input
-                type="text"
+                type="password"
                 placeholder="userPassword"
                 className="form-input"
                 onChange={handleInputChange}
